@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 export const GLOBAL_MUI_THEME = createTheme({
   palette: {
-    mode: 'dark',
+    mode: 'light',
     resume: {
       50: '#f5f3ff',
       100: '#ede9fe',
@@ -16,15 +16,15 @@ export const GLOBAL_MUI_THEME = createTheme({
       900: '#4c1d95',
     },
     primary: {
-      main: '#a855f7',
+      main: '#7c3aed',
     },
     background: {
-      default: '#050507',
-      paper: '#0a0a0e',
+      default: '#f8f8fc',
+      paper: '#ffffff',
     },
     text: {
-      primary: '#f5f5f7',
-      secondary: '#888892',
+      primary: '#1a1a1f',
+      secondary: '#6b6b75',
     },
   },
   components: {
@@ -35,13 +35,13 @@ export const GLOBAL_MUI_THEME = createTheme({
             backgroundColor: '#FFFFFF',
           },
           '&.Mui-checked > .MuiSwitch-thumb': {
-            backgroundColor: '#a855f7',
+            backgroundColor: '#7c3aed',
           },
           '& + .MuiSwitch-track': {
-            backgroundColor: '#444448',
+            backgroundColor: '#e0e0e5',
           },
           '&.Mui-checked + .MuiSwitch-track': {
-            backgroundColor: '#a855f7',
+            backgroundColor: '#7c3aed',
           },
         },
       },
@@ -58,8 +58,15 @@ export const GLOBAL_MUI_THEME = createTheme({
       styleOverrides: {
         root: {
           '& .MuiFilledInput-root': {
-            backgroundColor: 'rgba(255, 255, 255, 0.03)',
+            backgroundColor: 'rgba(0, 0, 0, 0.03)',
           },
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          backgroundImage: 'none',
         },
       },
     },
