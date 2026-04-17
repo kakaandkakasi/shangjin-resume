@@ -28,7 +28,7 @@ export const SYSTEM_COLORS: IThemeColor[] = [
 export const AVAILABLE_TEMPLATES: ITemplate = {
   modern: {
     id: 'modern',
-    name: 'Modern 现代',
+    name: 'AI算法工程师',
     thumbnail: '/templates/modern.png',
     component: dynamic(() => import('@/templates/modern/ModernTemplate'), {
       ssr: false,
@@ -36,7 +36,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   professional: {
     id: 'professional',
-    name: 'Professional 专业',
+    name: 'AI产品经理',
     thumbnail: '/templates/professional.png',
     component: dynamic(() => import('@/templates/professional/ProfessionalTemplate'), {
       ssr: false,
@@ -44,7 +44,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   creative: {
     id: 'creative',
-    name: 'Creative 创意',
+    name: '前端工程师',
     thumbnail: '/templates/creative.png',
     component: dynamic(() => import('@/templates/creative/CreativeTemplate'), {
       ssr: false,
@@ -52,7 +52,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   minimal: {
     id: 'minimal',
-    name: 'Minimal 简约',
+    name: '后端工程师',
     thumbnail: '/templates/minimal.png',
     component: dynamic(() => import('@/templates/minimal/MinimalTemplate'), {
       ssr: false,
@@ -60,7 +60,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   tech: {
     id: 'tech',
-    name: 'Tech 科技',
+    name: '数据分析师',
     thumbnail: '/templates/tech.png',
     component: dynamic(() => import('@/templates/tech/TechTemplate'), {
       ssr: false,
@@ -68,7 +68,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   elegant: {
     id: 'elegant',
-    name: 'Elegant 优雅',
+    name: 'UI/UX设计师',
     thumbnail: '/templates/elegant.png',
     component: dynamic(() => import('@/templates/elegant/ElegantTemplate'), {
       ssr: false,
@@ -76,7 +76,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   bold: {
     id: 'bold',
-    name: 'Bold 大胆',
+    name: '运营/市场',
     thumbnail: '/templates/bold.png',
     component: dynamic(() => import('@/templates/bold/BoldTemplate'), {
       ssr: false,
@@ -84,7 +84,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   classic: {
     id: 'classic',
-    name: 'Classic 经典',
+    name: '行政/人事',
     thumbnail: '/templates/classic.png',
     component: dynamic(() => import('@/templates/classic/ClassicTemplate'), {
       ssr: false,
@@ -92,7 +92,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   dev: {
     id: 'dev',
-    name: 'Developer 开发者',
+    name: '项目经理',
     thumbnail: '/templates/dev.png',
     component: dynamic(() => import('@/templates/dev/ProfessionalTemplate'), {
       ssr: false,
@@ -100,7 +100,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   startup: {
     id: 'startup',
-    name: 'Startup 创业',
+    name: '产品设计师',
     thumbnail: '/templates/startup.png',
     component: dynamic(() => import('@/templates/startup/ProfessionalTemplate'), {
       ssr: false,
@@ -108,7 +108,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   modern2: {
     id: 'modern2',
-    name: 'Modern2 现代2',
+    name: '市场分析师',
     thumbnail: '/templates/modern2.png',
     component: dynamic(() => import('@/templates/modern2/ProfessionalTemplate'), {
       ssr: false,
