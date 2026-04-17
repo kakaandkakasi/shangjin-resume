@@ -53,7 +53,7 @@ const HomeLayout = () => {
       </nav>
       <div
         style={{
-          background: 'linear-gradient(180deg, #E7EEFA 50%, #FFFFFF 100%)',
+          background: 'linear-gradient(180deg, #0a0a0e 50%, #050507 100%)',
           fontFamily: "'Roboto Slab', serif",
         }}
       >
@@ -80,8 +80,8 @@ const HomeLayout = () => {
               />
             </div>
             <div className="col-span-12 sm:col-span-8">
-              <h3 className="text-xl md:text-2xl mb-2 text-resume-400">SIMPLEST WAY TO BUILD A</h3>
-              <h1 className="text-5xl mb-12 text-resume-800">Professional Resume</h1>
+              <h3 className="text-xl md:text-2xl mb-2 text-resume-400">最简单的方式打造</h3>
+              <h1 className="text-5xl mb-12 text-resume-800">专业简历</h1>
 
               <div className="flex mb-10">
                 <div className="bg-resume-800 w-1 rounded-lg"></div>
@@ -93,7 +93,7 @@ const HomeLayout = () => {
               </div>
               <Link href="/builder" passHref={true}>
                 <Button variant="contained" className="bg-resume-800 mb-2">
-                  BUILD YOUR RESUME
+                  开始制作
                 </Button>
               </Link>
               <p
