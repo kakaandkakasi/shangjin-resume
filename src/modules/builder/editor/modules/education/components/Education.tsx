@@ -55,7 +55,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
   return (
     <Fragment>
       <TextField
-        label="School or College name"
+        label="学校名称"
         variant="filled"
         value={educationInfo.institution}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -69,7 +69,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Degree"
+        label="学位"
         variant="filled"
         value={educationInfo.studyType}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -82,7 +82,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Area"
+        label="专业领域"
         variant="filled"
         value={educationInfo.area}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -95,7 +95,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Grade"
+        label="成绩"
         variant="filled"
         value={educationInfo.score}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -108,7 +108,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <DatePicker
-        label="Start date"
+        label="开始日期"
         format={DATE_PICKER_FORMAT}
         value={dayjs(educationInfo.startDate)}
         onChange={(newDate) => {
@@ -119,14 +119,14 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         }}
       />
       <SwitchWidget
-        label={'I currently study here'}
+        label={'目前在校'}
         value={educationInfo.isStudyingHere ?? false}
         onChange={(newValue: boolean) => {
           onChangeHandler('isStudyingHere', newValue);
         }}
       />
       <DatePicker
-        label="Start date"
+        label="结束日期"
         format={DATE_PICKER_FORMAT}
         value={educationInfo.isStudyingHere ? null : dayjs(educationInfo.endDate)}
         onChange={(newDate) => {

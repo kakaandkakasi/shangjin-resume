@@ -12,7 +12,7 @@ const About = ({
   return (
     <Fragment>
       <RichtextEditor
-        label="About me"
+        label="个人简介"
         value={basicTabs.summary}
         onChange={(htmlOutput) => {
           onChangeHandler(htmlOutput, 'summary');
@@ -20,7 +20,7 @@ const About = ({
         name="summary"
       />
       <RichtextEditor
-        label="Career objective"
+        label="职业目标"
         value={basicTabs.objective}
         onChange={(htmlOutput) => {
           onChangeHandler(htmlOutput, 'objective');

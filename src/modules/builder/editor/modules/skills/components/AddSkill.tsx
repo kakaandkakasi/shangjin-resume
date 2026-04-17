@@ -41,7 +41,7 @@ const AddSkill = ({
     const trimmedLowerText = trimmedText.toLowerCase();
 
     if (items.find((item) => item.name.toLowerCase() === trimmedLowerText)) {
-      setErrorText('Duplicate entry');
+      setErrorText('重复条目');
     } else {
       setName('');
       setErrorText('');
@@ -61,7 +61,7 @@ const AddSkill = ({
   const formEl = (
     <form onSubmit={submitHandler}>
       <TextField
-        label="Skill"
+        label="技能"
         variant="filled"
         value={name}
         error={!!errorText}
@@ -76,14 +76,14 @@ const AddSkill = ({
       {hasLevel && <SliderValue level={level} setLevel={setLevel} />}
       <div className="flex gap-2 mt-3">
         <OutlinedButton onClick={doneHandler} disabled={disabled}>
-          Add
+          添加
         </OutlinedButton>
-        <TextButton onClick={toggleForm}>Cancel</TextButton>
+        <TextButton onClick={toggleForm}>取消</TextButton>
       </div>
     </form>
   );
 
-  return showForm ? formEl : <OutlinedButton onClick={toggleForm}>+ Add more</OutlinedButton>;
+  return showForm ? formEl : <OutlinedButton onClick={toggleForm}>+ 添加技能</OutlinedButton>;
 };
 
 export default AddSkill;

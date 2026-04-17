@@ -2,20 +2,29 @@ import { createTheme } from '@mui/material/styles';
 
 export const GLOBAL_MUI_THEME = createTheme({
   palette: {
+    mode: 'dark',
     resume: {
-      50: '#E7EEFA',
-      100: '#C7D6E4',
-      200: '#A8B9CC',
-      300: '#889DB3',
-      400: '#7188A1',
-      500: '#59748F',
-      600: '#4C667E',
-      700: '#3C5268',
-      800: '#2E4052',
-      900: '#1C2C3A',
+      50: '#f5f3ff',
+      100: '#ede9fe',
+      200: '#ddd6fe',
+      300: '#c4b5fd',
+      400: '#a855f7',
+      500: '#8b5cf6',
+      600: '#7c3aed',
+      700: '#6d28d9',
+      800: '#5b21b6',
+      900: '#4c1d95',
     },
     primary: {
-      main: '#2E4052',
+      main: '#a855f7',
+    },
+    background: {
+      default: '#050507',
+      paper: '#0a0a0e',
+    },
+    text: {
+      primary: '#f5f5f7',
+      secondary: '#888892',
     },
   },
   components: {
@@ -26,13 +35,30 @@ export const GLOBAL_MUI_THEME = createTheme({
             backgroundColor: '#FFFFFF',
           },
           '&.Mui-checked > .MuiSwitch-thumb': {
-            backgroundColor: '#59748F', // resume 500 variant
+            backgroundColor: '#a855f7',
           },
           '& + .MuiSwitch-track': {
-            backgroundColor: '#C7D6E4', // resume 100 variant
+            backgroundColor: '#444448',
           },
           '&.Mui-checked + .MuiSwitch-track': {
-            backgroundColor: '#C7D6E4', // resume 100 variant
+            backgroundColor: '#a855f7',
+          },
+        },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
+          fontWeight: 600,
+        },
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          '& .MuiFilledInput-root': {
+            backgroundColor: 'rgba(255, 255, 255, 0.03)',
           },
         },
       },
