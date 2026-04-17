@@ -136,15 +136,15 @@ const NavBarLayout = () => {
       <div className="flex-auto flex justify-between items-center xs:ml-3 md:ml-5">
         <NavBarMenu>
           <NavMenuItem
-            caption={`Templates (${TOTAL_TEMPLATES_AVAILABLE})`}
+            caption={`职位模板 (${TOTAL_TEMPLATES_AVAILABLE})`}
             popoverChildren={<TemplateSelect />}
           />
-          <NavMenuItem caption="Colours" popoverChildren={<ThemeSelect />} />
+          <NavMenuItem caption="配色" popoverChildren={<ThemeSelect />} />
         </NavBarMenu>
         <div className="hidden md:flex">
           <NavBarActions>
             <StyledButton variant="text" onClick={exportResumeData}>
-              Export
+              导出
             </StyledButton>
             <StyledButton
               variant="text"
@@ -155,7 +155,7 @@ const NavBarLayout = () => {
                 }
               }}
             >
-              Import{' '}
+              导入{' '}
               <input
                 type="file"
                 hidden
@@ -188,7 +188,7 @@ const NavBarLayout = () => {
           horizontal: 'right',
         }}
       >
-        <MenuItem onClick={exportResumeData}>Export</MenuItem>
+        <MenuItem onClick={exportResumeData}>导出</MenuItem>
         <MenuItem
           onClick={() => {
             if (fileInputRef.current) {
@@ -198,7 +198,7 @@ const NavBarLayout = () => {
             handleMenuClose();
           }}
         >
-          Import
+          导入
           <input
             type="file"
             hidden
@@ -214,7 +214,7 @@ const NavBarLayout = () => {
         onClose={() => {
           setOpenToast(false);
         }}
-        content={'Resume data was successfully imported.'}
+        content={'简历数据导入成功！'}
       />
     </nav>
   );

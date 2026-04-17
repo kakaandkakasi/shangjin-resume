@@ -1,0 +1,59 @@
+{
+  "basics": {
+    "name": "李华",
+    "label": "AI产品经理",
+    "image": "",
+    "email": "lihua@email.com",
+    "phone": "139-0000-5678",
+    "url": "",
+    "summary": "4年AI产品经验，主导多款AI产品从0到1上线。",
+    "location": { "city": "北京" },
+    "relExp": "4年",
+    "totalExp": "5年",
+    "profiles": []
+  },
+  "skills": {
+    "technologies": [
+      { "name": "需求分析", "level": 5 },
+      { "name": "PRD撰写", "level": 5 },
+      { "name": "数据分析", "level": 5 }
+    ],
+    "practices": [
+      { "name": "项目管理", "level": 5 },
+      { "name": "跨部门沟通", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Axure", "level": 90 },
+      { "name": "Figma", "level": 85 },
+      { "name": "SQL", "level": 80 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "百度",
+      "position": "AI产品经理",
+      "startDate": "2021.03",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["AI对话产品规划", "用户满意度提升40%"],
+      "summary": "<ul><li>负责AI对话产品规划，主导需求调研到上线全流程</li><li>设计智能客服系统，引入大模型能力，节省人工成本60%</li></ul>",
+      "years": "3年+"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "北京大学",
+      "studyType": "硕士",
+      "area": "软件工程",
+      "startDate": "2017",
+      "endDate": "2019",
+      "score": "GPA 3.7/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

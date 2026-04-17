@@ -17,23 +17,21 @@ const ConfirmationBox = ({
   return (
     <div className="fixed inset-0 bg-black/30 flex items-center justify-center z-50">
       <div className="bg-purple-50 w-80 p-6 rounded shadow-lg relative animate-[fadeIn_.3s]">
-        <h2 className="text-xl font-semibold mb-3">Reset All Changes</h2>
-        <p className="text-gray-600 mb-4 text-center">
-          Are you sure to reset all the changes you have done?
-        </p>
+        <h2 className="text-xl font-semibold mb-3">重置所有编辑</h2>
+        <p className="text-gray-600 mb-4 text-center">确定要重置所有编辑内容吗？此操作不可撤销。</p>
 
         <div className="flex justify-between">
           <button
             onClick={handleModalConfirmation}
             className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
           >
-            Confirm
+            确认
           </button>
           <button
             onClick={handleModalCloseAction}
             className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
           >
-            Cancel
+            取消
           </button>
         </div>
       </div>
@@ -67,7 +65,7 @@ const EditorLayout = () => {
 
   return (
     <ErrorBoundary>
-      <div className="bg-resume-50 h-full text-resume-800 p-6 overflow-auto relative no-scrollbar shadow-level-4dp">
+      <div className="bg-resume-50 h-full text-purple-700 p-6 overflow-auto relative no-scrollbar shadow-level-4dp">
         {displayElement}
 
         <div className="mt-8">

@@ -10,14 +10,14 @@ import VolunteeringLayout from '@/modules/builder/editor/modules/volunteering/Vo
 export const headers: {
   [key: string]: { title: string; component: () => ReactNode };
 } = {
-  'basic-details': { title: 'Basic details', component: BasicLayout },
+  'basic-details': { title: '基本信息', component: BasicLayout },
   'skills-and-expertise': {
-    title: 'Skills and expertise',
+    title: '技能专长',
     component: SkillsLayout,
   },
-  education: { title: 'Education', component: EducationLayout },
-  experience: { title: 'Experience', component: ExperienceLayout },
-  activities: { title: 'Activities', component: ActivitiesLayout },
-  volunteering: { title: 'Volunteering', component: VolunteeringLayout },
-  awards: { title: 'Awards', component: AwardsLayout },
+  education: { title: '教育经历', component: EducationLayout },
+  experience: { title: '工作经验', component: ExperienceLayout },
+  activities: { title: '项目活动', component: ActivitiesLayout },
+  volunteering: { title: '志愿服务', component: VolunteeringLayout },
+  awards: { title: '荣誉奖项', component: AwardsLayout },
 };

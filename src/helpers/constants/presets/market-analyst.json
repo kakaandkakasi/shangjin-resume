@@ -1,0 +1,29 @@
+{
+  "basics": {
+    "name": "",
+    "label": "",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": { "city": "" },
+    "relExp": "",
+    "totalExp": "",
+    "profiles": []
+  },
+  "skills": {
+    "languages": [],
+    "frameworks": [],
+    "technologies": [],
+    "libraries": [],
+    "databases": [],
+    "practices": [],
+    "tools": []
+  },
+  "work": [],
+  "education": [],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

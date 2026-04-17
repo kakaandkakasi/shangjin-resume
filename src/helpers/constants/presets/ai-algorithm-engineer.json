@@ -1,0 +1,72 @@
+{
+  "basics": {
+    "name": "张明",
+    "label": "AI算法工程师",
+    "image": "",
+    "email": "zhangming@email.com",
+    "phone": "138-0000-1234",
+    "url": "",
+    "summary": "5年AI算法研发经验，专注大模型训练与优化。主导NLP、推荐系统等项目，模型效果提升35%以上。",
+    "location": { "city": "北京", "region": "海淀区" },
+    "relExp": "5年",
+    "totalExp": "6年",
+    "objective": "致力于将前沿AI技术落地到实际业务场景",
+    "profiles": [{ "network": "github", "username": "zhangming-ai" }]
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "level": 95 },
+      { "name": "C++", "level": 70 }
+    ],
+    "frameworks": [
+      { "name": "PyTorch", "level": 90 },
+      { "name": "TensorFlow", "level": 85 }
+    ],
+    "technologies": [
+      { "name": "Transformer", "level": 5 },
+      { "name": "分布式训练", "level": 5 }
+    ],
+    "libraries": [
+      { "name": "Hugging Face", "level": 5 },
+      { "name": "DeepSpeed", "level": 5 }
+    ],
+    "databases": [{ "name": "MySQL", "level": 70 }],
+    "practices": [
+      { "name": "MLOps", "level": 5 },
+      { "name": "A/B测试", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Docker", "level": 90 },
+      { "name": "Git", "level": 90 },
+      { "name": "CUDA", "level": 80 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "字节跳动",
+      "position": "AI算法工程师",
+      "startDate": "2022.06",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["主导NLP大模型研发", "模型效果提升35%"],
+      "summary": "<ul><li>主导NLP大模型研发，基于Transformer架构完成模型训练与部署</li><li>优化推荐算法，用户兴趣画像系统，DAU提升20%</li><li>构建MLOps流程，实现模型自动化训练、评估、上线</li></ul>",
+      "years": "2年+"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "清华大学",
+      "studyType": "硕士",
+      "area": "计算机科学与技术",
+      "startDate": "2017",
+      "endDate": "2019",
+      "score": "GPA 3.8/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

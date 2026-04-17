@@ -1,0 +1,66 @@
+{
+  "basics": {
+    "name": "王磊",
+    "label": "前端工程师",
+    "image": "",
+    "email": "wanglei@email.com",
+    "phone": "137-0000-9012",
+    "url": "",
+    "summary": "4年前端开发经验，React技术栈专家。",
+    "location": { "city": "上海" },
+    "relExp": "4年",
+    "totalExp": "4年",
+    "profiles": [{ "network": "github", "username": "wanglei-fe" }]
+  },
+  "skills": {
+    "languages": [
+      { "name": "TypeScript", "level": 90 },
+      { "name": "JavaScript", "level": 95 }
+    ],
+    "frameworks": [
+      { "name": "React", "level": 90 },
+      { "name": "Vue", "level": 80 }
+    ],
+    "technologies": [
+      { "name": "性能优化", "level": 5 },
+      { "name": "组件库设计", "level": 5 }
+    ],
+    "libraries": [{ "name": "Redux", "level": 85 }],
+    "practices": [
+      { "name": "组件化架构", "level": 5 },
+      { "name": "前端工程化", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Webpack/Vite", "level": 85 },
+      { "name": "Git", "level": 90 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "阿里巴巴",
+      "position": "前端工程师",
+      "startDate": "2022.01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["React+TS重构", "性能提升50%"],
+      "summary": "<ul><li>负责核心业务前端架构设计，采用React+TS重构</li><li>开发可复用组件库，包含30+组件</li></ul>",
+      "years": "2年+"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "上海交通大学",
+      "studyType": "本科",
+      "area": "计算机科学",
+      "startDate": "2016",
+      "endDate": "2020",
+      "score": "GPA 3.6/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}
