@@ -9,6 +9,24 @@ import { Global } from '@emotion/react';
 import Image from 'next/image';
 import { useTemplates } from '@/stores/useTemplate';
 
+// Lazy load PRESETS to avoid module-level errors
+const loadPresetData = (templateId: string) => {
+  // Import PRESETS lazily only when needed
+  import('@/helpers/constants/presets')
+    .then(({ PRESETS }) => {
+      const presetData = PRESETS[templateId];
+      if (presetData) {
+        // Dynamically import and call resetResumeStoreWithPreset
+        import('@/stores/useResumeStore').then(({ resetResumeStoreWithPreset }) => {
+          resetResumeStoreWithPreset(
+            presetData as Parameters<typeof resetResumeStoreWithPreset>[0]
+          );
+        });
+      }
+    })
+    .catch(console.warn);
+};
+
 export const TemplateSlider = () => {
   const templateIndex = useTemplates((state) => state.activeTemplate.id);
 
@@ -37,6 +55,8 @@ export const TemplateSlider = () => {
 
   const onChangeTemplate = (templateId: string) => {
     useTemplates.getState().setTemplate(AVAILABLE_TEMPLATES[templateId]);
+    // Load preset data when template is selected
+    loadPresetData(templateId);
   };
 
   return (
