@@ -16,6 +16,39 @@ import { useEducations } from './education';
 import { useExperiences } from './experience';
 import { useVoluteeringStore } from './volunteering';
 
+type PresetData = {
+  basics?: typeof ResumeData.basics;
+  skills?: typeof ResumeData.skills;
+  work?: typeof ResumeData.work;
+  education?: typeof ResumeData.education;
+  awards?: typeof ResumeData.awards;
+  volunteer?: typeof ResumeData.volunteer;
+  activities?: typeof ResumeData.activities;
+};
+
+/**
+ * @description Load preset data into all stores
+ */
+export const resetResumeStoreWithData = (presetData: PresetData) => {
+  if (!presetData) return;
+  
+  if (presetData.basics) useBasicDetails.getState().reset(presetData.basics);
+  if (presetData.skills) {
+    if (presetData.skills.languages) useLanguages.getState().reset(presetData.skills.languages);
+    if (presetData.skills.frameworks) useFrameworks.getState().reset(presetData.skills.frameworks);
+    if (presetData.skills.libraries) useLibraries.getState().reset(presetData.skills.libraries);
+    if (presetData.skills.databases) useDatabases.getState().reset(presetData.skills.databases);
+    if (presetData.skills.technologies) useTechnologies.getState().reset(presetData.skills.technologies);
+    if (presetData.skills.practices) usePractices.getState().reset(presetData.skills.practices);
+    if (presetData.skills.tools) useTools.getState().reset(presetData.skills.tools);
+  }
+  if (presetData.work) useExperiences.getState().reset(presetData.work);
+  if (presetData.education) useEducations.getState().reset(presetData.education);
+  if (presetData.volunteer) useVoluteeringStore.getState().reset(presetData.volunteer);
+  if (presetData.awards) useAwards.getState().reset(presetData.awards);
+  if (presetData.activities) useActivity.getState().reset(presetData.activities);
+};
+
 export const useResumeStore = () => {
   return {
     ...ResumeData,

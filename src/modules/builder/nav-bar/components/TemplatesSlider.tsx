@@ -5,9 +5,11 @@ import Splide, { Splide as SplideCore } from '@splidejs/splide';
 import { useEffect, useRef } from 'react';
 
 import { AVAILABLE_TEMPLATES } from '@/helpers/constants';
+import { PRESETS } from '@/helpers/constants/presets';
 import { Global } from '@emotion/react';
 import Image from 'next/image';
 import { useTemplates } from '@/stores/useTemplate';
+import { resetResumeStoreWithData } from '@/stores/useResumeStore';
 
 export const TemplateSlider = () => {
   const templateIndex = useTemplates((state) => state.activeTemplate.id);
@@ -37,6 +39,11 @@ export const TemplateSlider = () => {
 
   const onChangeTemplate = (templateId: string) => {
     useTemplates.getState().setTemplate(AVAILABLE_TEMPLATES[templateId]);
+    // Load preset data when template is selected
+    const presetData = PRESETS[templateId];
+    if (presetData) {
+      resetResumeStoreWithData(presetData);
+    }
   };
 
   return (
