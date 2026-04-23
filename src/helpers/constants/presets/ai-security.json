@@ -1,0 +1,81 @@
+{
+  "basics": {
+    "name": "刘洋",
+    "label": "AI安全专家",
+    "image": "",
+    "email": "liuyang.security@email.com",
+    "phone": "134-0000-4567",
+    "url": "",
+    "summary": "3年AI安全经验，专注大模型安全评估与对齐。主导AI红队测试，建立模型安全评估体系。",
+    "location": { "city": "北京", "region": "海淀区" },
+    "relExp": "3年",
+    "totalExp": "4年",
+    "objective": "构建安全可信的AI系统",
+    "profiles": [{ "network": "github", "username": "liuyang-ai-security" }]
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "level": 90 },
+      { "name": "Go", "level": 70 }
+    ],
+    "frameworks": [],
+    "technologies": [
+      { "name": "RLHF对齐", "level": 5 },
+      { "name": "红队测试", "level": 5 },
+      { "name": "对抗样本", "level": 5 },
+      { "name": "AI合规", "level": 5 }
+    ],
+    "libraries": [
+      { "name": "garak", "level": 85 },
+      { "name": "PyRIT", "level": 80 }
+    ],
+    "databases": [],
+    "practices": [
+      { "name": "渗透测试", "level": 5 },
+      { "name": "OWASP", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Docker", "level": 80 },
+      { "name": "Linux", "level": 85 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某AI安全公司",
+      "position": "AI安全专家",
+      "startDate": "2022.06",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["AI红队", "安全评估", "合规认证"],
+      "summary": "<ul><li>对大模型进行安全评估，覆盖20+种攻击手法（提示注入、角色扮演、数据泄露等）</li><li>使用garak和PyRIT工具，建立自动化红队测试流程</li><li>发现并报告15个高危漏洞，协助修复并验证</li><li>协助完成AI产品合规认证</li></ul>",
+      "years": "2年+"
+    },
+    {
+      "id": "2",
+      "name": "某大厂",
+      "position": "安全工程师",
+      "startDate": "2020.08",
+      "isWorkingHere": false,
+      "endDate": "2022.05",
+      "highlights": ["传统安全", "渗透测试"],
+      "summary": "<ul><li>负责Web安全渗透测试</li><li>参与SDL安全开发流程</li></ul>",
+      "years": "2年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "中国科技大学",
+      "studyType": "硕士",
+      "area": "网络安全",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "GPA 3.7/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

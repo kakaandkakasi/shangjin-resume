@@ -1,0 +1,93 @@
+{
+  "basics": {
+    "name": "李强",
+    "label": "Agent开发工程师",
+    "image": "",
+    "email": "liqiang.ai@email.com",
+    "phone": "139-0000-5678",
+    "url": "",
+    "summary": "4年LLM应用开发经验，专注Agent智能体系统架构。主导企业级RAG知识库、Multi-Agent协作平台等项目。",
+    "location": { "city": "北京", "region": "朝阳区" },
+    "relExp": "4年",
+    "totalExp": "5年",
+    "objective": "构建可靠、可解释的AI Agent系统",
+    "profiles": [{ "network": "github", "username": "liqiang-agent" }]
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "level": 95 },
+      { "name": "Go", "level": 75 }
+    ],
+    "frameworks": [
+      { "name": "LangChain", "level": 95 },
+      { "name": "LangGraph", "level": 90 },
+      { "name": "LlamaIndex", "level": 85 },
+      { "name": "AutoGen", "level": 80 },
+      { "name": "CrewAI", "level": 75 }
+    ],
+    "technologies": [
+      { "name": "RAG系统设计", "level": 5 },
+      { "name": "Tool Calling", "level": 5 },
+      { "name": "ReAct循环", "level": 5 },
+      { "name": "Multi-Agent", "level": 5 },
+      { "name": "向量检索优化", "level": 5 }
+    ],
+    "libraries": [
+      { "name": "ChromaDB", "level": 90 },
+      { "name": "Milvus", "level": 85 },
+      { "name": "FAISS", "level": 80 }
+    ],
+    "databases": [
+      { "name": "PostgreSQL", "level": 80 },
+      { "name": "Redis", "level": 85 }
+    ],
+    "practices": [
+      { "name": "Prompt工程", "level": 5 },
+      { "name": "AI评估指标", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Docker/K8s", "level": 85 },
+      { "name": "FastAPI", "level": 90 },
+      { "name": "Git", "level": 90 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某AI创业公司",
+      "position": "Agent开发工程师",
+      "startDate": "2022.01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["企业级RAG知识库", "Multi-Agent调度平台", "日均百万调用"],
+      "summary": "<ul><li>主导RAG知识库项目，覆盖文档解析→分块→向量化→检索→LLM生成完整链路，召回率达87%</li><li>设计Multi-Agent协作系统，实现客服、数据分析、文档处理三大Agent协同，任务完成率92%</li><li>实现ReAct循环框架，支持Tool Calling调用内部API和数据库</li><li>优化向量检索策略，引入混合检索(关键词+向量)，召回率提升25%</li></ul>",
+      "years": "3年+"
+    },
+    {
+      "id": "2",
+      "name": "某大厂",
+      "position": "LLM应用工程师",
+      "startDate": "2020.07",
+      "isWorkingHere": false,
+      "endDate": "2021.12",
+      "highlights": ["智能客服系统", "成本降低60%"],
+      "summary": "<ul><li>基于LangChain构建智能客服系统，接入5个业务线知识库</li><li>设计Prompt模板体系，覆盖80+业务场景</li><li>实现对话记忆管理，支持30轮上下文</li></ul>",
+      "years": "1.5年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "上海交通大学",
+      "studyType": "硕士",
+      "area": "人工智能",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "GPA 3.8/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

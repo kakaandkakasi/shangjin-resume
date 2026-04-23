@@ -1,0 +1,77 @@
+{
+  "basics": {
+    "name": "陈静",
+    "label": "AI运营",
+    "image": "",
+    "email": "chenjing.ops@email.com",
+    "phone": "136-0000-3456",
+    "url": "",
+    "summary": "4年AI产品运营经验，擅长AIGC内容生产与AI产品用户增长。",
+    "location": { "city": "北京" },
+    "relExp": "4年",
+    "totalExp": "5年",
+    "objective": "用AI工具提升运营效率和用户体验",
+    "profiles": []
+  },
+  "skills": {
+    "languages": [],
+    "frameworks": [],
+    "technologies": [
+      { "name": "AIGC内容生产", "level": 5 },
+      { "name": "AI质量评估", "level": 5 },
+      { "name": "数据分析", "level": 5 }
+    ],
+    "libraries": [],
+    "databases": [],
+    "practices": [
+      { "name": "内容运营", "level": 5 },
+      { "name": "用户增长", "level": 5 },
+      { "name": "A/B测试", "level": 5 }
+    ],
+    "tools": [
+      { "name": "ChatGPT/Claude", "level": 90 },
+      { "name": "Midjourney", "level": 85 },
+      { "name": "Python/SQL", "level": 70 },
+      { "name": "Tableau", "level": 75 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某AI公司",
+      "position": "AI运营负责人",
+      "startDate": "2022.01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["AIGC内容", "效率提升300%", "用户增长50%"],
+      "summary": "<ul><li>搭建AIGC内容生产SOP，用ChatGPT+Midjourney提升内容产出效率300%</li><li>设计AI内容质量评估标准，覆盖20+内容场景</li><li>策划运营活动，月活用户增长50%</li><li>分析AI产品用户数据，提出功能优化建议，被采纳15条</li></ul>",
+      "years": "2年+"
+    },
+    {
+      "id": "2",
+      "name": "某互联网公司",
+      "position": "内容运营",
+      "startDate": "2020.06",
+      "isWorkingHere": false,
+      "endDate": "2021.12",
+      "highlights": ["内容矩阵", "DAU提升20%"],
+      "summary": "<ul><li>负责公众号内容运营，月产出内容30篇</li><li>搭建内容标签体系，提升推荐精准度</li></ul>",
+      "years": "1.5年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "中国人民大学",
+      "studyType": "本科",
+      "area": "新闻传播",
+      "startDate": "2015",
+      "endDate": "2019",
+      "score": "GPA 3.5/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

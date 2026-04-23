@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "张琳",
+    "label": "数据标注专家",
+    "image": "",
+    "email": "zhanglin.label@email.com",
+    "phone": "135-0000-7890",
+    "url": "",
+    "summary": "4年数据标注与管理经验，专注NLP和CV标注项目。负责标注团队管理，标注准确率达99%以上。",
+    "location": { "city": "成都" },
+    "relExp": "4年",
+    "totalExp": "5年",
+    "objective": "建立高质量的数据标注体系",
+    "profiles": []
+  },
+  "skills": {
+    "languages": [],
+    "frameworks": [],
+    "technologies": [
+      { "name": "NLP标注", "level": 5 },
+      { "name": "CV标注", "level": 5 },
+      { "name": "标注质量控制", "level": 5 }
+    ],
+    "libraries": [],
+    "databases": [],
+    "practices": [
+      { "name": "标注SOP制定", "level": 5 },
+      { "name": "质检体系", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Label Studio", "level": 95 },
+      { "name": "CVAT", "level": 85 },
+      { "name": "Python", "level": 70 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某AI数据公司",
+      "position": "数据标注主管",
+      "startDate": "2021.01",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["标注团队管理", "准确率99%+", "10万+条标注"],
+      "summary": "<ul><li>负责NLP标注项目（NER、情感分析、意图识别），累计完成10万+条标注</li><li>制定标注规范文档，覆盖30+标注场景</li><li>建立质检体系，一审准确率98%，二审达99%以上</li><li>管理10人标注团队，制定标注员培训计划</li></ul>",
+      "years": "3年+"
+    },
+    {
+      "id": "2",
+      "name": "某互联网公司",
+      "position": "数据标注员",
+      "startDate": "2019.06",
+      "isWorkingHere": false,
+      "endDate": "2020.12",
+      "highlights": ["图像标注", "5万+条"],
+      "summary": "<ul><li>负责图像标注（目标检测、分割），完成5万+条</li><li>使用CVAT和Label Studio工具</li></ul>",
+      "years": "1.5年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "四川大学",
+      "studyType": "本科",
+      "area": "计算机科学",
+      "startDate": "2015",
+      "endDate": "2019",
+      "score": "GPA 3.3/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

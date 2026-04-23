@@ -1,0 +1,85 @@
+{
+  "basics": {
+    "name": "王磊",
+    "label": "垂类落地工程师",
+    "image": "",
+    "email": "wanglei.vertical@email.com",
+    "phone": "137-0000-9012",
+    "url": "",
+    "summary": "3年AI落地经验，专注金融/医疗行业AI应用。主导多个行业RAG知识库项目，深刻理解行业业务流程与合规要求。",
+    "location": { "city": "上海", "region": "浦东新区" },
+    "relExp": "3年",
+    "totalExp": "4年",
+    "objective": "将AI技术深度落地到垂直行业",
+    "profiles": [{ "network": "github", "username": "wanglei-ai" }]
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "level": 95 },
+      { "name": "SQL", "level": 85 }
+    ],
+    "frameworks": [
+      { "name": "LangChain", "level": 90 },
+      { "name": "LlamaIndex", "level": 85 }
+    ],
+    "technologies": [
+      { "name": "RAG行业落地", "level": 5 },
+      { "name": "行业知识图谱", "level": 5 },
+      { "name": "API集成", "level": 5 }
+    ],
+    "libraries": [
+      { "name": "向量数据库", "level": 85 }
+    ],
+    "databases": [
+      { "name": "MySQL", "level": 85 },
+      { "name": "Neo4j", "level": 75 }
+    ],
+    "practices": [
+      { "name": "行业合规", "level": 5 },
+      { "name": "数据安全", "level": 5 }
+    ],
+    "tools": [
+      { "name": "Docker", "level": 85 },
+      { "name": "FastAPI", "level": 90 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某金融科技公司",
+      "position": "垂类AI落地工程师",
+      "startDate": "2022.03",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["金融RAG知识库", "监管合规", "召回率90%"],
+      "summary": "<ul><li>主导金融行业RAG知识库项目，覆盖研报、公告、法规等文档类型</li><li>设计行业专属分块策略，结合金融知识图谱，召回率达90%</li><li>对接现有IT系统（CRM/风控系统），打通数据流</li><li>完成金融合规审查，满足数据本地化要求</li></ul>",
+      "years": "2年+"
+    },
+    {
+      "id": "2",
+      "name": "某医疗AI公司",
+      "position": "AI工程师",
+      "startDate": "2020.08",
+      "isWorkingHere": false,
+      "endDate": "2022.02",
+      "highlights": ["医疗知识库", "HIS系统对接"],
+      "summary": "<ul><li>构建医疗文献RAG系统，支持医学问答</li><li>对接医院HIS系统，实现病历数据结构化</li><li>完成医疗AI产品的注册申报</li></ul>",
+      "years": "1.5年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "复旦大学",
+      "studyType": "硕士",
+      "area": "计算机技术",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "GPA 3.6/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}

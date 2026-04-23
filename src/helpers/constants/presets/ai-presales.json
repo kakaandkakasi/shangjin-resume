@@ -1,0 +1,77 @@
+{
+  "basics": {
+    "name": "赵鹏",
+    "label": "AI解决方案售前",
+    "image": "",
+    "email": "zhaopeng.presale@email.com",
+    "phone": "133-0000-8901",
+    "url": "",
+    "summary": "5年AI售前经验，专注金融和医疗行业。为多个大型项目提供AI解决方案，POC成功率80%以上。",
+    "location": { "city": "上海" },
+    "relExp": "5年",
+    "totalExp": "7年",
+    "objective": "用AI解决方案帮助企业数字化转型",
+    "profiles": []
+  },
+  "skills": {
+    "languages": [],
+    "frameworks": [],
+    "technologies": [
+      { "name": "RAG/知识库", "level": 5 },
+      { "name": "Agent应用", "level": 5 },
+      { "name": "行业AI落地", "level": 5 }
+    ],
+    "libraries": [],
+    "databases": [],
+    "practices": [
+      { "name": "方案设计", "level": 5 },
+      { "name": "技术演示", "level": 5 },
+      { "name": "需求分析", "level": 5 },
+      { "name": "客户沟通", "level": 5 }
+    ],
+    "tools": [
+      { "name": "PPT/演示文档", "level": 90 },
+      { "name": "Demo搭建", "level": 80 },
+      { "name": "Figma", "level": 70 }
+    ]
+  },
+  "work": [
+    {
+      "id": "1",
+      "name": "某AI公司",
+      "position": "高级售前顾问",
+      "startDate": "2021.03",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": ["金融AI项目", "千万级", "POC成功率85%"],
+      "summary": "<ul><li>主导金融行业AI知识库项目售前，金额2000万+</li><li>设计金融RAG解决方案，覆盖智能投顾、风险合规等场景</li><li>完成技术演示20+场，POC成功率85%</li><li>协助签约5个大型客户，金额合计5000万+</li></ul>",
+      "years": "3年+"
+    },
+    {
+      "id": "2",
+      "name": "某IT咨询公司",
+      "position": "售前工程师",
+      "startDate": "2018.07",
+      "isWorkingHere": false,
+      "endDate": "2021.02",
+      "highlights": ["企业级项目", "解决方案"],
+      "summary": "<ul><li>为企业客户提供IT解决方案售前支持</li><li>负责技术方案撰写和客户演示</li></ul>",
+      "years": "2.5年"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "浙江大学",
+      "studyType": "本科",
+      "area": "计算机科学",
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": "GPA 3.4/4.0",
+      "courses": []
+    }
+  ],
+  "activities": { "involvements": "", "achievements": "" },
+  "volunteer": [],
+  "awards": []
+}
